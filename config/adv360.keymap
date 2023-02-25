@@ -82,7 +82,7 @@
  &trans      &trans        &trans                &trans                 &trans         &trans            &trans                                                  &trans             &trans            &trans             &trans       &trans     &trans  &kp QUESTION
  &trans   &kp CARET  &kp ASTERISK         &kp LESS_THAN       &kp GREATER_THAN       &kp PIPE            &trans                                                  &trans   &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp HASH   &kp PLUS      &kp EXCL
  &trans  &kp DOLLAR     &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH            &trans  &trans  &trans                  &trans  &trans  &trans  &kp DOUBLE_QUOTES    &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp PERCENT  &kp EQUAL        &trans
- &trans      &trans        &trans                &trans              &kp GRAVE       &kp AMPS            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp NON_US_HASH            &kp AT             &kp UP       &trans     &trans        &trans
+ &trans      &trans        &trans                &trans              &kp GRAVE       &kp AMPS            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &kp TILDE            &kp AT             &kp UP       &trans     &trans        &trans
  &trans      &trans        &trans                &trans                 &trans                           &trans  &trans  &trans                  &trans  &trans  &trans                             &kp LEFT           &kp DOWN    &kp RIGHT     &trans        &trans
             >;
         };
