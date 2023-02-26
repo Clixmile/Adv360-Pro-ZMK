@@ -34,7 +34,7 @@
 
     gresc: dot_colon {
         compatible = "zmk,behavior-mod-morph";
-        label = "DOT_COLON";
+        label = "gresc";
         #binding-cells = <0>;
         bindings = <&kp DOT>, <&kp COLON>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
