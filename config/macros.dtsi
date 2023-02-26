@@ -2,11 +2,7 @@ macro_screenshot: macro_screenshot{
 compatible = "zmk,behavior-macro";
 label = "macro_screenshot";
 #binding-cells = <0>;
-<<<<<<< Updated upstream
-bindings = <&kp NUMBER_4>;
-=======
 bindings = <&kp LC(LS(NUMBER_4))>;
->>>>>>> Stashed changes
 };
 macro_alfred: macro_alfred{
 compatible = "zmk,behavior-macro";
