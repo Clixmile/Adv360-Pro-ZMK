@@ -37,7 +37,7 @@
         label = "dotcol"; 
         mods = <(MOD_LSFT|MOD_RSFT)>; 
         #binding-cells = <0>;
-        bindings = <&kp DOT>, <&kp COLUMN>;
+        bindings = <&kp DOT>, <&kp COLON>;
     };
     
     commasemi: comma_semicolon {
