@@ -32,12 +32,12 @@
         bindings = <&kp>, <&kp>;
     };
 
-    gresc: grave_escape {
+    gresc: dot_colon {
         compatible = "zmk,behavior-mod-morph";
-        label = "GRAVE_ESCAPE";
+        label = "DOT_COLON";
         #binding-cells = <0>;
         bindings = <&kp DOT>, <&kp COLON>;
-        mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
     };
   };
 
@@ -51,7 +51,7 @@
        &kp TAB      &kp Q     &kp W             &kp E   &kp R   &kp T                        &none                                                                     &none   &kp Z   &kp U         &kp I     &kp O      &kp P      &kp EXCL
  &kp BACKSPACE      &kp A     &kp S             &kp D   &kp F   &kp G            &macro_screenshot      &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL    &kp DEL   &kp H   &kp J         &kp K     &kp L   &kp SEMI       &kp SQT
      &kp LSHFT      &kp Y     &kp X             &kp C   &kp V   &kp B                        &none          &none  &kp HOME  &trans   &none  &kp PG_UP      &none      &none   &kp N   &kp M  &kp KP_COMMA   &kp DOT  &kp MINUS     &kp RSHFT
-         &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT_COMMAND   &sl 4                            &kp SPACE  &macro_alfred   &kp END                  &kp PG_DN  &kp ENTER  &kp ENTER   &kp ESC &kp DOWN  &kp LBKT   &kp RBKT         &mo 2
+         &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT_COMMAND   &sl 4                            &kp SPACE  &macro_alfred   &kp END                  &kp PG_DN  &kp ENTER  &kp ENTER   &kp ESC &gresc DOT_COLON &kp LBKT   &kp RBKT         &mo 2
             >;
         };
 
