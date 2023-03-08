@@ -16,13 +16,13 @@ label = "macro_oe";
 #binding-cells = <0>;
 bindings = <&kp LA(U)>, <&kp O>;
 };
-macro_oe: macro_ae{
+macro_ae: macro_ae{
 compatible = "zmk,behavior-macro";
 label = "macro_ae";
 #binding-cells = <0>;
 bindings = <&kp LA(U)>, <&kp A>;
 };
-macro_oe: macro_ue{
+macro_ue: macro_ue{
 compatible = "zmk,behavior-macro";
 label = "macro_ue";
 #binding-cells = <0>;
